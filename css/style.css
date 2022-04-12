@@ -11,14 +11,13 @@ body {
 }
 
 header nav {
-	height: 100px;
 	width: 100% vw;
 	padding-left: 100px;
 	padding-right: 100px;
 }
 
 nav ul {
-	height: 100px;
+	height: 120px;
 	display: flex;
 	align-items: center;
 	flex-direction: row;
@@ -145,15 +144,15 @@ form button:hover {
 .arrow-down-button {
 	border: none;
 	background-color: #0d6d38;
-	height: 70px;
-	width: 70px;
+	height: 64px;
+	width: 64px;
 	padding: 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 15px;
 	position: absolute;
-	bottom: 4.5%;
+	bottom: 6%;
 	right: 3%;
 	z-index: 100;
 }
