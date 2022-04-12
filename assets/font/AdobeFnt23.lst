@@ -1,0 +1,187 @@
+%!Adobe-FontList 1.23
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CooperBT-Bold
+FamilyName:Cooper Lt BT
+StyleName:Bold
+FullName:Cooper Bold BT
+MenuName:Cooper Lt BT
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Users\black\Documents\GitHub\breaking-bad-info-page\assets\Font\CooperBoldBT.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:58272
+FileModTime:1649712138
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cooper Bold BT
+NameArray:0,Win,1,Cooper Lt BT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CooperBT-BoldItalic
+FamilyName:Cooper Lt BT
+StyleName:Bold Italic
+FullName:Cooper Bold Italic BT
+MenuName:Cooper Lt BT
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\Users\black\Documents\GitHub\breaking-bad-info-page\assets\Font\CooperBoldItalicBT.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:56780
+FileModTime:1649712138
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cooper Bold Italic BT
+NameArray:0,Win,1,Cooper Lt BT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CooperBT-Light
+FamilyName:Cooper Lt BT
+StyleName:Light
+FullName:Cooper Light BT
+MenuName:Cooper Lt BT
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Users\black\Documents\GitHub\breaking-bad-info-page\assets\Font\CooperLightBT.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:57932
+FileModTime:1649712138
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cooper Light BT
+NameArray:0,Win,1,Cooper Lt BT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CooperBT-LightItalic
+FamilyName:Cooper Lt BT
+StyleName:Light Italic
+FullName:Cooper Light Italic BT
+MenuName:Cooper Lt BT
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\Users\black\Documents\GitHub\breaking-bad-info-page\assets\Font\CooperLightItalicBT.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:56708
+FileModTime:1649712138
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cooper Light Italic BT
+NameArray:0,Win,1,Cooper Lt BT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CooperBT-Bold
+FamilyName:Cooper Lt BT
+StyleName:Bold
+FullName:Cooper Lt BT Bold
+MenuName:Cooper Lt BT
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:D:\Users\black\Documents\GitHub\breaking-bad-info-page\assets\Font\CooperLtBTBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55976
+FileModTime:1649712138
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cooper Lt BT Bold
+NameArray:0,Win,1,Cooper Lt BT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CooperBT-BoldItalic
+FamilyName:Cooper Lt BT
+StyleName:Bold Italic
+FullName:Cooper Lt BT Bold Italic
+MenuName:Cooper Lt BT
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:D:\Users\black\Documents\GitHub\breaking-bad-info-page\assets\Font\CooperLtBTBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55904
+FileModTime:1649712138
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cooper Lt BT Bold Italic
+NameArray:0,Win,1,Cooper Lt BT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CooperBT-Light
+FamilyName:Cooper Lt BT
+StyleName:Light
+FullName:Cooper Lt BT Light
+MenuName:Cooper Lt BT
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Users\black\Documents\GitHub\breaking-bad-info-page\assets\Font\CooperLtBTLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55308
+FileModTime:1649712138
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cooper Lt BT Light
+NameArray:0,Win,1,Cooper Lt BT
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CooperBT-LightItalic
+FamilyName:Cooper Lt BT
+StyleName:Light Italic
+FullName:Cooper Lt BT Light Italic
+MenuName:Cooper Lt BT
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:D:\Users\black\Documents\GitHub\breaking-bad-info-page\assets\Font\CooperLtBTLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:55512
+FileModTime:1649712138
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Cooper Lt BT Light Italic
+NameArray:0,Win,1,Cooper Lt BT
+%EndFont
+

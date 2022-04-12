@@ -1,0 +1,54 @@
+@font-face {
+	font-family: 'Cooper';
+	src: url(../assets/font/CooperLightBT.ttf);
+}
+
+* {
+	font-family: 'Cooper', 'Times New Roman', Times, serif;
+	box-sizing: border-box;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	background-image: url(../assets/background-image.png);
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+}
+
+section.main-section {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	height: 100%;
+	left: -30%;
+	position: absolute;
+	-webkit-animation: slide 0.5s forwards;
+	-webkit-animation-delay: 1s;
+	animation: slide 0.5s forwards;
+	animation-delay: 1s;
+	background: rgba(25, 34, 18, 0.5);
+	align-items: center;
+}
+
+img#logo {
+	margin: 3rem 0;
+	height: 80%;
+}
+
+@-webkit-keyframes slide {
+	100% {
+		left: 0%;
+	}
+}
+
+@keyframes slide {
+	100% {
+		left: 0%;
+	}
+}
+
+form h4 {
+	color: white;
+}
