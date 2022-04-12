@@ -13,17 +13,37 @@
 		<link rel="stylesheet" href="css/reset.css" />
 	</head>
 	<body>
-		<section class="main-section">
-			<div class="main-content">
-				<img id="logo" src="assets/logo.svg" alt="logo" />
-				<form id="form">
-					<h4>Find your favorite drink recipes here!</h4>
-					<input type="text" name="" value="" placeholder="Walter White" /><button type="button" name="button">
-						Search
-					</button>
+		<header>
+			<nav class="nav-menu">
+				<ul>
+					<li>Home</li>
+					<li>Information</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="image-search-bar">
+			<div>
+				<img id="logo" src="assets/logo.svg" alt="" />
+				<p>
+					If you are a Breaking Bad fan, look here for all the details of the characters of the greatest series in the
+					world.
+				</p>
+				<form action="">
+					<input type="text" name="" value="" placeholder="walter white" />
+					<button type="button">Search</button>
 				</form>
 			</div>
-		</section>
+			<div id="slide">
+				<img src="assets/Walter.png" alt="" />
+				<img src="assets/Jesse.png" alt="" />
+				<img src="assets/Saul.png" alt="" />
+			</div>
+		</main>
+
+		<button class="arrow-down-button">
+			<img src="assets/arrow-down-button.svg" alt="" />
+		</button>
 	</body>
 
 	<script src="js/main.js"></script>

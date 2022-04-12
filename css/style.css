@@ -1,54 +1,169 @@
-@font-face {
-	font-family: 'Cooper';
-	src: url(../assets/font/CooperLightBT.ttf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
 * {
-	font-family: 'Cooper', 'Times New Roman', Times, serif;
-	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	color: #9b9a9a;
 }
 
 body {
-	width: 100vw;
-	height: 100vh;
-	background-image: url(../assets/background-image.png);
-	background-size: cover;
-	overflow: hidden;
+	box-sizing: border-box;
 	position: relative;
 }
 
-section.main-section {
+header nav {
+	height: 100px;
+	width: 100% vw;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+nav ul {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	gap: 50px;
+}
+
+ul li {
+	font-size: 25px;
+}
+
+ul li:hover {
+	color: #0b9248;
+	cursor: pointer;
+}
+
+ul li:first-child {
+	border-right: solid #9b9a9a 3px;
+	padding-right: 50px;
+}
+
+main {
+	width: 100% vw;
+	padding-left: 100px;
+	padding-right: 100px;
+	display: flex;
+}
+main div {
+	width: 50%;
+}
+
+main div:first-child {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
-	height: 100%;
-	left: -30%;
-	position: absolute;
-	-webkit-animation: slide 0.5s forwards;
-	-webkit-animation-delay: 1s;
-	animation: slide 0.5s forwards;
-	animation-delay: 1s;
-	background: rgba(25, 34, 18, 0.5);
-	align-items: center;
+	justify-content: center;
+	padding: 0 20px 0 20px;
 }
 
-img#logo {
-	margin: 3rem 0;
-	height: 80%;
+main img#logo {
+	padding: 50px 80px 0 80px;
 }
 
-@-webkit-keyframes slide {
-	100% {
-		left: 0%;
-	}
+main p {
+	margin-top: 100px;
+	margin-bottom: 50px;
+	font-size: 30px;
+	line-height: 50px;
+	text-align: justify;
 }
 
-@keyframes slide {
-	100% {
-		left: 0%;
-	}
+main form {
+	width: 100%;
+	margin: 0;
+	display: flex;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
-form h4 {
+form input {
+	width: 75%;
+	margin: 0;
+	height: 60px;
+	margin: 0;
+	height: 60px;
+	padding: 0 0;
+	border: none;
+	border: 2px solid #9b9a9a;
+	border-radius: 15px 0px 0px 15px;
+	font-size: 25px;
+	padding-left: 25px;
+}
+
+form input:focus {
+	outline: none;
+}
+
+form button {
+	width: 25%;
+	margin: 0;
+	height: 64px;
+	padding: 0 0;
+	background: #0d6d38;
+	border: none;
+	font-size: 25px;
 	color: white;
+	border-radius: 0 15px 15px 0;
+}
+
+form button:hover {
+	background: #0b9248;
+	cursor: pointer;
+}
+
+::placeholder {
+	font-size: 25px;
+	color: #e2e2e2;
+}
+
+#slide img {
+	position: absolute;
+}
+
+#slide img:nth-of-type(1) {
+	animation-name: fader;
+	animation-delay: 4s;
+	animation-duration: 1s;
+	z-index: 20;
+}
+
+#slide img:nth-of-type(2) {
+	z-index: 10;
+}
+#slide img:nth-of-type(n + 3) {
+	display: none;
+}
+
+@keyframes fader {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}
+.arrow-down-button {
+	border: none;
+	background-color: #0d6d38;
+	height: 70px;
+	width: 70px;
+	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	position: absolute;
+	bottom: 4.5%;
+	right: 3%;
+	z-index: 100;
+}
+
+.arrow-down-button:hover {
+	background-color: #0b9248;
+	cursor: pointer;
+}
+
+.arrow-down-button img {
+	width: 60%;
+	margin-top: 5px;
 }
