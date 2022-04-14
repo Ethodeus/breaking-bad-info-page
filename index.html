@@ -11,13 +11,21 @@
 		<!--============ CSS STYLE ============-->
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/reset.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<audio id="my-audio" src="http://timpietrusky.com/cdn/breaking_bad_intro.mp3"></audio>
 	</head>
 	<body>
 		<header>
-			<nav class="nav-menu">
+			<nav id="nav-menu">
 				<ul>
-					<li>Home</li>
-					<li>Information</li>
+					<a href=""><li>Home</li></a>
+					<a href="#details-container"><li>Information</li></a>
 				</ul>
 			</nav>
 		</header>
@@ -26,24 +34,28 @@
 			<div>
 				<img id="logo" src="assets/logo.svg" alt="" />
 				<p>
-					If you are a Breaking Bad fan, look here for all the details of the characters of the greatest series in the
+					If you are a <strong>Breaking Bad</strong> fan, look here for some details from the greatest series in the
 					world.
 				</p>
 				<form action="">
-					<input type="text" name="" value="" placeholder="walter white" />
-					<button type="button">Search</button>
+					<input type="text" name="" value="" placeholder="Walter White" />
+					<button type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
 				</form>
 			</div>
 			<div id="slide">
-				<img src="assets/Walter.png" alt="" />
-				<img src="assets/Jesse.png" alt="" />
-				<img src="assets/Saul.png" alt="" />
+				<img src="assets/Walter.png" alt="Walter" />
+				<img src="assets/Jesse.png" alt="Jesse" />
+				<img src="assets/Saul.png" alt="Saul" />
 			</div>
+			<a class="arrow-down-button" href="#details-container">
+				<img src="assets/arrow-down-button.svg" alt="" />
+			</a>
 		</main>
 
-		<button class="arrow-down-button">
+		<section id="details-container"></section>
+		<a class="arrow-down-button-2" href="#nav-menu">
 			<img src="assets/arrow-down-button.svg" alt="" />
-		</button>
+		</a>
 	</body>
 
 	<script src="js/main.js"></script>
