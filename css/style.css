@@ -47,7 +47,6 @@ ul a:first-child li {
 }
 
 main {
-	width: 100% vw;
 	padding-left: 100px;
 	padding-right: 100px;
 	display: flex;
@@ -98,7 +97,7 @@ form input {
 }
 
 form input:hover {
-	width: 75%;
+	width: 55%;
 }
 
 form input:focus {
