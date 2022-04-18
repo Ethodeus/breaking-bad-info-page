@@ -7,7 +7,6 @@
 
 <h3 align="center">Simple platform for Breaking Bad fans to find general information about their favorite characters!</h3>
 <br>
-<br>
 
 ## How It's Made:
 Breaking Bad is one of my favorite shows, and as my second attempt to work with API's, I decided to create this simple website focused on getting information 
