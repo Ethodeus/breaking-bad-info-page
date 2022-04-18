@@ -9,7 +9,7 @@
 <br>
 
 ## How It's Made:
-Breaking Bad is one of my favorite shows, and as my second attempt to work with API's, I decided to create this simple website focused on getting information 
+Breaking Bad is one of my favorite shows, and as my second attempt to work with APIs, I decided to create this simple website focused on getting information 
 from the characters' endpoint by adding a simple query parameter to the HTTP url requesting information. 
 
 <h2 align="center">Techs used:</h2>
