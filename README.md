@@ -23,6 +23,7 @@ from the characters' endpoint by adding a simple query parameter to the HTTP url
 </div>
 
 ##
+<br>
 
 ## Optimizations
 
