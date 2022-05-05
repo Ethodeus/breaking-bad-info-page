@@ -26,6 +26,14 @@ function playMusic() {
 }
 
 document.querySelector('button').addEventListener('click', getFetch);
+document.querySelector('input').addEventListener('keydown', (e) => {
+	if (e.key === 'Enter') {
+		e.preventDefault()
+		playMusic()
+		getFetch()
+		document.querySelector('input').value = '' //reset search bar to empty
+	}
+});
 
 function getFetch() {
 	const input = document.querySelector('input').value;
